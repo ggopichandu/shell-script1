@@ -7,7 +7,8 @@ MOVIES=("Dil" "Mirchi" "RRR")
 
 # list is always starts with 0.
 
-echo "First Movie is: ${MOVIE[0]}"
-echo "Second Movie is: ${MOVIE[1]}"
-echo "Third Movie is: ${MOVIE[2]}"
+echo "First Movie is: ${MOVIES[0]}"
+echo "Second Movie is: ${MOVIES[1]}"
+echo "Third Movie is: ${MOVIES[2]}"
+echo "All Movies are: ${MOVIES[@]}"
 
